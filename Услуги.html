@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Проекная организация</title>
+	<link rel="stylesheet" type="text/css" href="Услуги.style.css">
+</head>
+<body>
+	
+	<header>
+		<div class="general-margin">
+
+			<nav>
+					<a class="header-logo" href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Главная%20страница.html">
+					<img src="элементы/главная/шапка/logo.png">
+				</a>
+				<div class="header-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+
+		</div>	
+	</header>
+
+	<section class="bg1" style="background-image: url(элементы/главная/фон/bg.1.png)">
+		<div class="general-margin">
+			<div class="aa">
+				<div class="services">
+					<span class="title-s">
+						Услуги
+					</span>
+					<span class="title-i">
+						Помимо составления проектно - сметной документации, мы предоставляем еще ряд услуг, 
+						необходимые для достижение максимального результата
+					</span>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<main>
+	<section class="bg2">
+		<div class="general-margin">
+			
+			<div class="services-block">
+				<div class="services-b">
+					<div class="s-b">
+						<div class="s-b2">
+							<img src="элементы/услуги/lupa.png">
+							<span class="name-s">
+								Создание рабочей документации
+							</span>
+						</div>
+						<div class="s-b2">
+							<span class="s-description">
+								Мы составляем подытоживающую инструкцию для начала реализации проекта в жизнь. В ней прописываются все необходимые указания и объяснения для исполнения работы. 
+							</span>
+						</div>
+					</div>
+					<div class="s-b">
+						<div class="s-b2">
+							<img src="элементы/услуги/eyes.png">
+							<span class="name-s">
+								Авторский надзор
+							</span>
+						</div>
+						<div class="s-b2">
+							<span class="s-description">
+								Чтобы были соблюдены все требования проектной документации, мы предоставляем свои услуги надзора за постройщиками в ходе всего строительства
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="services-b">
+					<div class="s-b">
+						<div class="s-b2">
+							<img src="элементы/услуги/doc.png">
+							<span class="name-s">
+								Получение разрешения на строительство
+							</span>
+						</div>
+						<div class="s-b2">
+							<span class="s-description">
+								Наши юристы помогут утвердить застройку и получить всевозможные справки и выписки для начала строительства.
+							</span>
+						</div>
+					</div>
+					<div class="s-b">
+						<div class="s-b2">
+							<img src="элементы/услуги/iss.png">
+							<span class="name-s">
+								Инженерные изыскания
+							</span>
+						</div>
+						<div class="s-b2">
+							<span class="s-description">
+								Перед началом составления проектной документации мы проводим комплексные изучения природных условий местности, где будет располагаться будущая постройка
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="scrollToTop" onclick="goUp();"><img style="width: 20px" src="элементы/arrow.png"></div>
+	</section>
+</main>
+
+<footer>
+	<div class="bb">
+		<div class="general-margin">
+			<div class="footer-block">
+
+				<div class="f-b">
+					<a class="logo-footer" href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Главная%20страница.html">
+						<img src="элементы/главная/подвал/symbol.png">
+					</a>
+				</div>
+
+				<div class="f-b">
+					<nav class="footer-nav">
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Услуги.html">УСЛУГИ</a>
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Проекты.html">ПРОЕКТЫ</a>
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Контакты.html">КОНТАКТЫ</a>
+					</nav>
+				</div>
+
+				<div class="f-b">
+					<div class="contact-f">
+
+						<div class="c-f">
+							<span class="text-ic">
+								+ 7 995 346 91 11
+							</span>
+							<span class="text-ic">
+								urbawooden@yandex.ru
+							</span>
+						</div>
+
+						<div class="c-f">
+							<a class="social" href="">
+								<img src="элементы/главная/подвал/vk.png">
+							</a>
+							<a class="social" href="">
+								<img src="элементы/главная/подвал/inst.png">
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+<script type="text/javascript">
+	var timeOut;
+	function goUp() {
+		var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+		if(top > 0) {
+			window.scrollBy(0,-100);
+			timeOut = setTimeout('goUp()',5);
+		} else clearTimeout(timeOut);
+	}
+</script>
+</html>

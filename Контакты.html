@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Проектная организация</title>
+	<link rel="stylesheet" type="text/css" href="Контакты.style.css">
+</head>
+<body>
+	<header>
+		<div class="general-margin">
+
+			<nav>
+					<a class="header-logo" href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Главная%20страница.html">
+					<img src="элементы/главная/шапка/logo.png">
+				</a>
+				<div class="header-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+
+		</div>	
+	</header>
+
+	<section class="bg1" style="background-image: url(элементы/главная/фон/bg.1.png)">
+		<div class="general-margin">
+			<div class="aa">
+				<div class="services">
+					<span class="title-s">
+						Контакты
+					</span>
+					<span class="title-i">
+						Если у вас появились вопросы - свяжитесь с нами, и мы обязательно вам на них ответим
+					</span>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<main>
+	<section class="bg2">
+		<div class="contacts-block">
+			<div class="adress-block" >
+				<div class="general-margin">
+					
+					<div class="adress-b">
+						
+						<div class="a-b">
+							<span class="text-ic">
+								Адрес офиса:
+							</span>
+							<span class="text-ic-b">
+								Метро "Охотный ряд"
+							</span>
+							<span class="text-ic-b">
+								Моховая ул. дом 11с8
+							</span>
+
+						</div>
+						<div class="a-b">
+							<span class="text-ic">
+								Почта:
+							</span>
+							<span class="text-ic-b">
+								urbawooden@yandex.ru
+							</span>
+						</div>
+						<div class="a-b">
+							<span class="text-ic">
+								Телефон:
+							</span>
+							<span class="text-ic-b">
+								+ 7 995 346 91 11
+							</span>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+
+			<div class="general-margin">
+				<div class="map-block">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Afe7983e7c0a5856b7aa68495e4e815929bba134d9cdb76f080681a99765f6098&amp;source=constructor">
+					</iframe>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="scrollToTop" onclick="goUp();"><img style="width: 20px" src="элементы/arrow.png"></div>
+	</div>
+</section>
+</main>
+
+<footer>
+	<div class="bb">
+		<div class="general-margin">
+			<div class="footer-block">
+
+				<div class="f-b">
+					<a class="logo-footer" href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Главная%20страница.html">
+						<img src="элементы/главная/подвал/symbol.png">
+					</a>
+				</div>
+
+				<div class="f-b">
+					<nav class="footer-nav">
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Услуги.html">УСЛУГИ</a>
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Проекты.html">ПРОЕКТЫ</a>
+							<a href="file:///C:/Users/Лидочка/Desktop/Новая%20папка%20(2)/Сайт%20проектной%20организации/Контакты.html">КОНТАКТЫ</a>
+					</nav>
+				</div>
+
+				<div class="f-b">
+					<div class="contact-f">
+
+						<div class="c-f">
+							<span class="text-ic">
+								+ 7 995 346 91 11
+							</span>
+							<span class="text-ic">
+								urbawooden@yandex.ru
+							</span>
+						</div>
+
+						<div class="c-f">
+							<a class="social" href="">
+								<img src="элементы/главная/подвал/vk.png">
+							</a>
+							<a class="social" href="">
+								<img src="элементы/главная/подвал/inst.png">
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+<script type="text/javascript">
+	var timeOut;
+	function goUp() {
+		var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+		if(top > 0) {
+			window.scrollBy(0,-100);
+			timeOut = setTimeout('goUp()',5);
+		} else clearTimeout(timeOut);
+	}
+</script>
+</html>
