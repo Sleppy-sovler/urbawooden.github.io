@@ -1,0 +1,275 @@
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	margin: 0 auto;
+	font-family: Century Gothic, serif;
+}
+header {
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+footer {
+	display: block;
+	height: 560px;
+	max-height: 560px; 
+	width: 100%;
+	background-color: #343434;
+}
+main {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.bg1 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+}
+.bg2 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 1080px;
+	max-width: 1920px;
+	background-color: white;
+	margin: 0 auto;
+}
+.general-margin {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.aa {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.services {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 35%;
+	width: 100%;
+	background-color: #F2F2F2;
+	border-radius: 50px;
+}
+.title-s {
+	margin-bottom: 30px;
+	font-size: 60px;
+	color: black;
+	opacity: 0.7;
+	text-align: center;
+}
+.title-i {
+	font-size: 30px;
+	color: black;
+	opacity: 0.7;
+	text-align: center;
+	width: 83%;
+}
+nav {
+	width: 100%;
+	height: 164px;
+	max-height: 164px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	position: relative;
+}
+.header-logo img {
+	width: 305px;
+	height: 92px;
+	
+}
+.name-company {
+	display: block;
+	position: relative;
+	width: inherit;
+}
+
+.header-menu {
+	display: inline-block;
+	cursor: pointer;
+}
+.header-menu span:not(:last-child){
+	margin-bottom: 10px;
+}
+.header-menu span{
+	display: block;
+	width: 75px;
+	height: 6px;
+	background-color: white;
+	border-radius: 40px;
+}
+
+.text-ic {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+.bb {
+	display: block;
+    width: 100%;
+    height: 560px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.footer-block {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin: 70px 0;
+
+}
+.f-b {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-basis: 30%;
+}
+.logo-footer img{
+	width: 120px;
+}
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 15px 0;
+}
+.footer-nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+	padding: 0 25px;
+}
+.footer-nav a:hover {
+	text-decoration: none;
+	color: #3E9312;
+	font-size: 40px;
+	padding: 0 25px;
+}
+.contact-f {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	width: 100%;
+}
+.c-f {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	flex-basis: 50%;
+
+}
+.c-f:first-child {
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.c-f span {
+	color: white;
+}
+.social img{
+	width: 60px;
+}
+.social:first-child {
+	margin-right: 50px;
+}
+
+
+#scrollToTop {
+	display: block;
+	position: relative;
+	bottom: 160px;
+	float: right;
+	margin-right: 45px ;
+	cursor: pointer;
+}
+.contacts-block {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+
+}
+.adress-block {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 120px;
+	margin-top: 70px;
+	border-bottom: 12px solid #D4C76D;
+
+}
+.adress-b {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+.a-b {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin-right: 50px;
+}
+.a-b:last-child {
+	margin-right: 0;
+}
+.text-ic {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.text-ic-b{
+	font-size: 20px;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+}
+.map-block {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 20px 0 70px 0;
+}
+.map-block iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}

@@ -1,0 +1,140 @@
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: Century Gothic, serif;
+	background-image: url(элементы/главная/фон/bg.1.png);
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	-webkit-background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+
+}
+main {
+	display: block;
+	position: absolute;
+	padding-top: 220px;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+header {
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.general-margin {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+nav {
+	width: 100%;
+	height: 164px;
+	max-height: 164px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	position: relative;
+}
+.header-logo img {
+	width: 305px;
+	height: 92px;
+	
+}
+.header-menu {
+	display: inline-block;
+	cursor: pointer;
+}
+.header-menu span:not(:last-child){
+	margin-bottom: 10px;
+}
+.header-menu span{
+	display: block;
+	width: 75px;
+	height: 6px;
+	background-color: white;
+	border-radius: 40px;
+}
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;
+	border-radius: 50px 50px 0 0;
+	max-height: 1080px;
+	box-sizing: border-box;
+}
+.name-project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 70px;
+}
+.name-project span {
+	font-size: 60px;
+	color: black;
+	opacity: 0.7;
+
+}
+.buttom-project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 30px;
+
+}
+.buttom-project a {
+	position: relative;
+	padding: 14px 40px;
+	border: 1px solid #707070;
+	border-radius: 12px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	border-radius: 13px;
+	opacity: 0.7;
+}
+.buttom-project a:hover {
+	color: #3E9312;
+}
+.image-block img {
+	width: 80%;
+}
+.image-block {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	position: relative;
+}
+.image-block img:first-child {
+	width: 30px;
+	height: 30px;
+}
+.image-block img:last-child {
+	width: 30px;
+	height: 30px;
+}

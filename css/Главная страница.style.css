@@ -1,0 +1,450 @@
+html{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	margin: 0 auto;
+	font-family: Century Gothic, serif;
+}
+header {
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+footer {
+	display: block;
+	height: 560px;
+	max-height: 560px; 
+	width: 100%;
+	background-color: #343434;
+}
+main {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.bg1 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 330px 0 115px;
+}
+.bg2 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	max-width: 1920px;
+	background-image: url(элементы/главная/main/bg.2.png);
+	margin: 0 auto;
+}
+.bg3 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	max-width: 1920px;
+	background-image: url(элементы/главная/main/bg.3.png);
+	margin: 0 auto;
+}
+.bg4 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	max-width: 1920px;
+	background-image: url(элементы/главная/main/bg.4.png);
+	margin: 0 auto;
+}
+.bg5 {
+	display: block;
+	width: 100%;
+	height: 1080px;
+	max-width: 1920px;
+	background-image: url(элементы/главная/main/bg.5.png);
+	margin: 0 auto;
+}
+.general-margin {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.aa {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100%;
+	width: 100%;
+
+}
+nav {
+	width: 100%;
+	height: 164px;
+	max-height: 164px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	position: relative;
+}
+.header-logo img {
+	width: 305px;
+	height: 92px;
+	
+}
+.name-company {
+	display: block;
+	position: relative;
+	width: inherit;
+}
+.tagline {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 190px;
+	background-image: url(элементы/главная/основа/podlojka.png);
+	
+}
+.text-tagline {
+	position: absolute;
+	font-size: 40px;
+	color: #D4C76D;
+	margin: 0 230px;
+	text-align: center;
+}
+
+.header-menu {
+	display: inline-block;
+	cursor: pointer;
+}
+.header-menu span:not(:last-child){
+	margin-bottom: 10px;
+}
+.header-menu span{
+	display: block;
+	width: 75px;
+	height: 6px;
+	background-color: white;
+	border-radius: 40px;
+}
+.buttom-project {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 70px;
+	padding: 60px 0 0 ;
+}
+.buttom-project a {
+	position: relative;
+	padding: 14px 40px;
+	background-color: rgba(0,0,0, 0.5);
+	text-decoration: none;
+	text-align: center;
+	font-size: 35px;
+	color: #F2F2F2;
+	border-radius: 13px;
+	opacity: 0.9;
+}
+.buttom-project a:hover {
+	font-size: 40px;
+	color: #3E9312;
+	padding: 10px 26px;
+}
+.title-list {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	margin-top: 100px;
+
+}
+.tl-name {
+	font-size: 80px;
+	color: black;
+	opacity: 0.7;
+}
+.info-company{
+	display: flex;
+	width: 100%;
+	margin: 120px 0 0;
+	list-style: none;
+	padding: 0;
+}
+.info-company-block {
+	display: flex;
+	justify-content: center;
+	flex-basis: 33%;
+	margin-right: 50px;
+	
+}
+.info-company-block:last-child {
+	margin-right: 0;
+}
+.text-ic {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+.info-employees {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	margin: 75px 0 55px;
+}
+.info-employees-block {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: inherit;
+	padding: 0 210px;
+}
+.employees {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+
+}
+.employees-block {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 73px;
+	height: 490px;
+	border: 1px solid #707070;
+}
+.e-picture {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 405px;
+}
+.e-picture img {
+	flex-basis: 33%;
+	max-width: 376px;
+	border: 1px solid #707070;
+	margin: 0.6px; 
+}
+.employees-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 100%
+
+}
+.e-m {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: 100%;
+}
+.info-project {
+	display: block;
+	position: relative;
+	margin: 200px 0 100px;
+	width: 100%;
+}
+.ip-block {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.partners-block {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+	height: 290px;
+}
+.p-b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	margin-right: 50px;
+
+}
+.p-b:last-child {
+	margin-right: 0;
+}
+.name-partners {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+}
+.name-partners a {
+	padding: 15px 0;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+
+}
+.name-partners a:hover {
+	font-size: 35px;
+	color: #3E9312;
+
+}
+.p-b img{
+	width: 400px;
+}
+.job-block {
+	display: block;
+	position: relative;
+	margin: 85px 0 100px;
+	width: 100%;
+}
+.job-v {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 450px;
+}
+.j-b {
+	display: flex;
+	flex-direction: column;
+	width: 393px;
+	height: inherit;
+	justify-content: space-between;
+}
+.j-b span {
+	font-size: 35px;
+	padding: 30px 0;
+	color: black;
+	text-align: center;
+	border-bottom: 2px solid #707070;
+}
+.j-b span:first-child {
+	border-top: 2px solid #707070;
+}
+.communication-block {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.c-block {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-basis: 50%;
+	position: relative;
+	height: inherit;
+}
+.c-block:last-child {
+	justify-content: flex-end;
+}
+.c-block img {
+	align-items: center;
+	width: 100px;
+}
+.c-block span {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.bb {
+	display: block;
+    width: 100%;
+    height: 560px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.footer-block {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin: 70px 0;
+
+}
+.f-b {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-basis: 30%;
+}
+.logo-footer img{
+	width: 120px;
+}
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 15px 0;
+}
+.footer-nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+	padding: 0 25px;
+}
+.footer-nav a:hover {
+	text-decoration: none;
+	color: #3E9312;
+	font-size: 40px;
+	padding: 0 25px;
+}
+.contact-f {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	width: 100%;
+}
+.c-f {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	flex-basis: 50%;
+
+}
+.c-f:first-child {
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.c-f span {
+	color: white;
+}
+.social img{
+	width: 60px;
+}
+.social:first-child {
+	margin-right: 50px;
+}
+#scrollToTop {
+	display: block;
+	position: relative;
+	bottom: 160px;
+	float: right;
+	margin-right: 45px ;
+	cursor: pointer;
